@@ -28,6 +28,7 @@ body, nav, p, img{
     
     display: block;
     width: 100%;
+    margin-bottom: 20px
 }
 
 
@@ -76,7 +77,6 @@ button:hover {
 button:active {
     
     background-color: #00E8FF;
-    width: 145px;
 }
 
 a:link {
@@ -180,13 +180,7 @@ ul {
     text-align: center;
     
 }
-    
-#imgtop img {
-    
-    display: none;
-    
-}
-    
+       
 .logo img {
     
     width: 25%;
@@ -196,8 +190,7 @@ ul {
 }
 
 button {
-    
-    display: block;
+   
     text-align: center;
     width: 100px;
     height: 30px;
@@ -212,7 +205,8 @@ button {
     
     width: 30%;
     background-color: #097C00;
-    color: white
+    color: white;
+    display: block;
         
 }
 
@@ -229,6 +223,11 @@ nav .containerNav {
         
 }
     
+#imgtop img {
+        
+     display: none;
+}
+    
 .dropDownContent {
         
     display: none;
@@ -237,7 +236,6 @@ nav .containerNav {
     background-color: #0b9d00;
     border: 1px solid black;
     border-radius: 5px;
-    text-align: left;
     z-index: 1
 }
     
@@ -250,13 +248,26 @@ nav .containerNav {
 .dropDownContent li {
         
     border-bottom: 1px solid black;
-    width: 90%
+    width: 94%;
+    margin: 0px;
 }
     
 .dropdown_visible {
 
     display: block
 }
+    
+.dropdown_visible a {
+
+    width: 100%;
+    display: block;
+    text-align: left; 
+    margin: 5px;
+    
+}
+    
+
+
 
     
 .containerContent img {
@@ -381,7 +392,7 @@ ul {
     margin-bottom: 0px;
     
 }
-
+    
 .logo img {
     
     width: 10%;
@@ -389,25 +400,19 @@ ul {
     margin: 0 auto
  
 }
-
-#imgtop img {
     
-    display: block;
-    width: 100%;
-   
+#imgtop img {
+        
+     display: none;
 }
 
 button {
     
-    display: block;
-    text-align: center;
-    width: 150px;
+    width: 225px;
     height: 50px;
-    max-width: 100%;
-    margin: 25px auto;
     border: 1px solid black;
     border-radius: 3px;
-    
+    font-size: 18px;  
 }
     
 #dropDown button, #dropDown ul{
@@ -532,9 +537,7 @@ nav ul li{
     
 .containerNav {
     
-    margin-top: 60px;
-    margin-bottom: 10px;
-    
+    margin-top: 60px;    
 }
 
 .logo img {
@@ -549,20 +552,16 @@ nav ul li{
         
     font-size: 24px;
     font-weight: 600;
+    margin-top: 40px
 }
 
 button {
     
-    display: block;
-    text-align: center;
-    width: 150px;
+    width: 225px;
     height: 50px;
-    max-width: 100%;
-    margin: 25px auto;
     border: 1px solid black;
     border-radius: 3px;
-    font-size: 18px
-    
+    font-size: 24px;
 }
     
 #dropDown button, #dropDown ul{
@@ -571,7 +570,6 @@ button {
         
 }
     
- 
 h2 {
     
     text-align: center;
