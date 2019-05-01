@@ -34,13 +34,24 @@
                 
             </nav>
             
+            <nav role="navigation" id="dropDown">
+                <button onclick="dropDownMenu()" class="dropDnBtn">MENU</button>
+                    <ul class="dropDownContent">
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="explore.html">EXPLORE</a></li>
+                        <li><a href="exhibition.html">EXHIBITION</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a class="info" href="info.html">INFO</a></li>
+                    </ul>  
+            </nav>
+            
             <div id="imgtop">
-            <img src="images/time.jpg" alt="huge clock with lightning from it">
-            <p>Come join us at the Community Science Museum<br> where we’re committed to making science accessible to all.
-            </p>
+                <img src="images/time.jpg" alt="huge clock with lightning from it">
+                <p>Come join us at the Community Science Museum<br> where we’re committed to making science accessible to all.
+                </p>
             </div>
             
-            <a href="explore.html#explore_site"><button role="button">EXPLORE</button></a>
+            <a href="info.html#info"><button role="button">VISIT</button></a>
             
         </header>
         
@@ -98,65 +109,56 @@
             <h2>VISIT</h2>
             
             <div id="visitTop">
-            <div id="hours">
-            <h3>Opening Hours</h3>
-            <ul role="list">
-                <li>Monday: Closed</li>
-                <li>Tuesday: 10:00 – 16:00</li>
-                <li>Wednesday: 10:00 – 16:00</li>
-                <li>Thursday: 10:00 – 16:00</li>
-                <li>Friday: 10:00 – 19:00</li>
-                <li>Saturday: 9:00 – 16:00</li>
-                <li>Sunday: 9:00 – 13:00</li>
-            </ul>
-            </div>
+                <div id="hours">
+                <h3>Opening Hours</h3>
+                    <ul role="list">
+                        <li>Monday: Closed</li>
+                        <li>Tuesday: 10:00 – 16:00</li>
+                        <li>Wednesday: 10:00 – 16:00</li>
+                        <li>Thursday: 10:00 – 16:00</li>
+                        <li>Friday: 10:00 – 19:00</li>
+                        <li>Saturday: 9:00 – 16:00</li>
+                        <li>Sunday: 9:00 – 13:00</li>
+                    </ul>
+                </div>
             
             <div id="access">
-            <h3>Accessbility</h3>
-            <p>The museum has wheelchair accessibility ramps.<br><br> It also has audio guides and braille display signs for the visually impaired.
-            </p>
+                <h3>Accessbility</h3>
+                <p>The museum has wheelchair accessibility ramps.<br><br> It also has audio guides and braille display signs for the visually impaired.
+                </p>
             </div>
             
-            <div id="admission">
-            <h3>Admission</h3>
-            <p>The entrance is free for all. <br><br>
-                There are guided tours of the museum that leave every hour. These tours are <b>70 NOK per person</b> and include a handy printed guide of the museum. <br><br>
-                If you would like to organise a guided tour for your group of 6 or more people, please <a href="visit.html">contact us</a> to arrange the tour.</p>
-            </div>
+                <div id="admission">
+                    <h3>Admission</h3>
+                    <p>The entrance is free for all. <br><br>
+                        There are guided tours of the museum that leave every hour. These tours are <b>70 NOK per person</b> and include a handy printed guide of the museum. <br><br>
+                        If you would like to organise a guided tour for your group of 6 or more people, please <a href="visit.html">contact us</a> to arrange the tour.</p>
+                </div>
             </div>
         </aside>
         
-        
         <article role="article">
             <div id="events">
-            <h2>Special Events and Exhibitons</h2>
-            
-            <div id="special">
-            <section class="specialEvents">
-            <h3>Visiting Professor of Aeronautics</h3>
-            <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
-            </section>
-                
-            <section class="specialEvents">
-            <h3>Night in the Museum</h3>
-            <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.</p>
-            </section>
-                
-            <section class="specialEvents">
-            <h3>Energetica Exhibition on Loan</h3>
-            <p>On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum.<br>
-            It’s a series of installations that allow visitors to experience the power of the elements as we harness them. From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able to use and control wind to create power.</p>
-            </section>
-            </div>
-            </div>
+                <h2>Special Events and Exhibitons</h2>
 
-            <article role="article" id=involved>
-            <h2>Get Involved</h2>
-            <p>There are various ways you can support the museum. Donations are very welcome and are an important way we keep this museum open and accessible to the whole community.<br>
-            You can also help volunteer in a number of different spheres. Please contact us if you’d like to find out more about how you can get involved.<br>
-            You may also enjoy an internship at the museum.</p>
-            </article>
-            <a href="info.html#getinvolved"><button role="button">Get Involved</button></a>
+                <div id="special">
+                    <section class="specialEvents">
+                        <h3>Visiting Professor of Aeronautics</h3>
+                        <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
+                    </section>
+
+                    <section class="specialEvents">
+                        <h3>Night in the Museum</h3>
+                        <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.</p>
+                    </section>
+
+                    <section class="specialEvents">
+                        <h3>Energetica Exhibition on Loan</h3>
+                        <p>On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum.<br>
+                        It’s a series of installations that allow visitors to experience the power of the elements as we harness them. From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able to use and control wind to create power.</p>
+                    </section>
+                </div>
+            </div>
         </article>
         
         <footer role="contentinfo">
