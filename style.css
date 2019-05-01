@@ -237,7 +237,8 @@ nav .containerNav {
     background-color: #0b9d00;
     border: 1px solid black;
     border-radius: 5px;
-    text-align: left;  
+    text-align: left;
+    z-index: 1
 }
     
 .dropDownContent a {
@@ -254,7 +255,7 @@ nav .containerNav {
     
 .dropdown_visible {
 
-    display: block;
+    display: block
 }
 
     
