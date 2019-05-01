@@ -24,16 +24,16 @@ body, nav, p, img{
     font-family: comfortaa, Bodoni, serif
 }
 
-
-p {
-    
-    line-height: 1.6
-}
-
 #imgtop img {
     
     display: block;
     width: 100%;
+}
+
+
+p {
+    
+    line-height: 1.6
 }
 
 nav ul {
@@ -124,7 +124,7 @@ a:active {
 .grey, .greyVisit {
     
     border-top: 1px solid #43B2FF;
-    background-color: #43B2FF; /* for browserd that do not support gradients e.g IE9 and earlier */
+    background-color: #43B2FF; /* for browsers that do not support gradients e.g IE9 and earlier */
     background-image: linear-gradient(to right, #4BE6FF, lightblue );
     font-weight: 600
 }
@@ -179,7 +179,13 @@ ul {
     padding: 0;
     text-align: center;
     
-}    
+}
+    
+#imgtop img {
+    
+    display: none;
+    
+}
     
 .logo img {
     
@@ -201,6 +207,14 @@ button {
     border-radius: 3px;
     
 }
+    
+#dropDown button{
+    
+    width: 30%;
+    background-color: #097C00;
+    color: white
+        
+}
 
 h2 {
     
@@ -208,6 +222,41 @@ h2 {
     margin: 30px 0 10px 0;
 
 }
+    
+nav .containerNav {
+
+    display: none
+        
+}
+    
+.dropDownContent {
+        
+    display: none;
+    margin: 1px auto;
+    width: 35%;
+    background-color: #0b9d00;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: left;  
+}
+    
+.dropDownContent a {
+    
+    color: white;
+    font-size: 14px;
+}
+    
+.dropDownContent li {
+        
+    border-bottom: 1px solid black;
+    width: 90%
+}
+    
+.dropdown_visible {
+
+    display: block;
+}
+
     
 .containerContent img {
     
@@ -224,6 +273,7 @@ p {
     text-align: center;
     font-size: 14px;
 }
+    
 img {
     
     width: 100%
@@ -357,6 +407,12 @@ button {
     border: 1px solid black;
     border-radius: 3px;
     
+}
+    
+#dropDown button, #dropDown ul{
+    
+   display: none;
+        
 }
 
 h2 {
@@ -509,6 +565,12 @@ button {
     border-radius: 3px;
     font-size: 18px
     
+}
+    
+#dropDown button, #dropDown ul{
+    
+   display: none;
+        
 }
     
  
