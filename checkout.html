@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta lang="en">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta name="description" content="hiking shoe">
+        <title>Letha Shoes Outgoing</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+
+<header role="banner">
+    
+    <h1><a href=index.html>Letha Shoes</a></h1>
+    
+    <a href="basket.html"><img id="cart" role="img" src="images/cart_logo.png" alt="cart"></a>
+    <img id="searchbar" role="img" src="images/searchbar.png" alt="searchbar">
+    
+    <nav role ="navigation" id="topmenu">
+        <ul>
+            <li class="menuitem"><a href="dress.html">Dress</a></li>
+            <li class="menuitem"><a href="outgoing.html">Outgoing</a></li>
+            <li class="menuitem"><a href="about.html">About</a></li>
+            <li class="menuitem"><a href="info.html" >Info</a></li>    
+        </ul>
+    </nav>
+    
+</header>
+    
+    <input type="image" role="button" id="back_btn" src="images/back_button.png" alt="arrow pointing left">
+    
+    <div id="breadcrumb">
+        <a href="index.html">Home</a>
+        <a>&rArr;</a>
+        <a href="basket.html">Basket</a>
+        <a>&rArr;</a>
+        <a>Checkout</a>
+    </div>
+    
+<article role="article" id="checkout_form">
+    <form role="form" action="checkout.html">
+        <section  class="checkout">
+            <h2>Log In</h2>
+            
+                <label for="username">Username:</label>
+                <input type="text" name="username">
+            
+                <label for="password">Password:</label>
+                <input type="password" name="password" minlength="8"> 
+                <p><i>forgot password? <a href="">click here</a></i></p>
+        
+         <input type="submit" name="login" value="Log In" id="login_btn">
+         <p>Not registered yet? Create New Account</p>
+        
+    </section>
+    
+    <section class="checkout">
+            <h2>Create New Account</h2>
+                        
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" size="30" pattern="[a-zA-Z]{1,}\s[a-zA-Z]{1,}">
+        
+                        <label for="adress">Adress:</label>
+                        <input type="text" name="adress" size="30" pattern="[a-zA-Z]{1,}\s[a-zA-Z]{1,}\s[0-9]">
+        
+                        <label for="phone nr">Phone nr:</label>
+                            <select name="countrycode">
+                                <option value="+61 australia">+61 Australia</option>
+                                <option value="+43 austria">+43 Austria</option>
+                                <option value="+32 belgium">+32 Belgium</option>
+                                <option value="+55 brazil">+55 Brazil</option>
+                                <option value="+1 canada">+1 Canada</option>
+                                <option value="+86 china">+86 China</option>
+                                <option value="+385 croatia">+385 Croatia</option>
+                                <option value="+45 denmark">+45 Denmark</option>
+                                <option value="+358 finlad">+358 Finland</option>
+                                <option value="+49 germany">+49 Germany</option>
+                                <option value="+30 greece">+30 Greece</option>
+                                <option value="+852 hongkong">+852 Hong Kong</option>
+                                <option value="+354 Iceland">+354 Iceland</option>
+                                <option value="+39 italy">+39 Italy</option>
+                                <option value="+47 norway">+47 Norway</option>
+                                <option value="+7 russia">+7 Russian Fed.</option>
+                                <option value="+44 uk">+44 United Kingdom</option>
+                                <option value="+1 usa">+1 USA</option>
+                            </select>
+                        <input type="tel" name="phone_nr" size="30" maxlength="12" placeholder=" xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                        
+                        <label for="zip code">ZIP:</label>
+                        <input type="text" name="zip" size="4" maxlength="4" pattern="[0-9]{4}">
+                        
+                        <label for="postcode">Postcode:</label>
+                        <input type="text" name="postcode" size="4" maxlength="4" pattern="[0-9]{4}">
+                        
+                        <label for="city">City:</label>
+                        <input type="text" name="city" size="30" pattern="[a-zA-Z]{1,}?">
+        
+                        <label for="email">Email: <em>&#40;this will be your username&#41;</em></label>
+                        <input type="text" name="adress" size="30" placeholder=" example@mail.com" pattern="([a-z\d\.-_%+]+)+@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?">
+                        
+                        <label for="password">Password:</label>
+                        <input type="text" name="password" size="30" min="8" placeholder="min 8 characters, no spaces" pattern="([\w@-+\.]+g{8,})">
+                        <label for="password">Re-enter Password:</label>
+                        <input type="text" name="password" size="30" min="8" placeholder="min 8 characters, no spaces" pattern="([\w@-+\.]+g{8,})">
+        </section>
+        
+        <section class="checkout">
+             <h3>Card Details</h3>
+                        
+                        <label for="cardholder_name">Name of Cardholder:</label>
+                        <input type="text" name="name" size="30" pattern="[a-zA-Z]{1,}\s[a-zA-Z]{1,}">
+            
+                        <label for="card_number">Card Number:</label>
+                        <input type="tel" name="cardnr" size="30" pattern="[0-9]{1,}">
+                        
+                        <label for="cvc">CVC:</label>
+                        <input type="tel" name="cvc" size="3" maxlength="3" pattern="[0-9]{3}">
+                        
+                        <label for="expiration">Expiration Date:</label>
+                        <input type="month" name="exp.date" placeholder="MM/YYYY">
+            
+            <input type="submit" name="new" value="Create New Account" id="create_btn">
+            <input type="reset" name="new" value="reset" id="reset_btn">
+        </section>
+        
+            <section class="checkout_pay">
+                <h4>Payment</h4>
+                <input type="radio" name="payment" value="visa" checked="checked">VISA
+                <input type="radio" name="payment" value="american express">American Express
+                <input type="radio" name="payment" value="paypal">Pay Pal
+                <input type="radio" name="payment" value="14 days">Pay after 14 days &#40;<i>Get bill after 14 days on email</i>&#41;
+            </section>
+        
+            <section class="checkout_pay">
+                <h4>Receipt</h4>
+                <input type="radio" name="receipt" value="email" checked="checked">E-mail
+                <input type="radio" name="receipt" value="sms">SMS
+            </section>
+        
+        </form>
+    
+        <a href="thank_you.html">
+        <button role="button" type="submit" id="purchase_btn">Purchase</button>
+        </a>
+    
+</article>
+    
+   <footer>
+       <div id="tlf_mail">
+        <div class="footer_info">
+            <img role="img" src="images/tlf_logo.png" alt="phone">
+            <p> 123 456 78</p>
+        </div>
+       
+        <div class="footer_info">
+            <img role="img" src="images/mail_logo.png" alt="letter">
+            <p>letha.shoes&#64;mail&#46;com</p>
+        </div>
+       </div>
+       
+       <div id="hour_adr">
+        <div class="footer_info_visit">
+            <h4>Hours</h4>
+            <p>Mon &#45; Fri <br>
+            8 am &#45; 4pm</p>
+        </div>
+       
+        <div class="footer_info_visit">
+            <h4>Adress</h4>
+            <p>Baskerville Road 31<br>
+            2115 Jump Street</p>
+       </div>
+      </div>
+       
+    <section id="social">
+        <a href="https://www.facebook.com/">
+       <div class="footer_info">
+        <img role="img" src="images/facebook_logo.png" alt="facebook logo">
+        <p>Facebook</p>
+       </div>
+         </a>
+        
+        <a href="https://twitter.com/login?lang=no"> 
+        <div class="footer_info">
+            <img role="img" src="images/twitter_logo.png" alt="twitter logo">
+            <p>Twitter</p>
+        </div>
+        </a>
+    </section>
+       
+    <div id="terms_faq">
+        <p>terms &amp; conditions</p>
+        <p>&copy; copywright</p>
+    </div>   
+  </footer>
+    
+
+ </body>
+</html>
