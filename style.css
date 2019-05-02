@@ -78,11 +78,13 @@ h1 {
     
 }
 
-.menuitem:hover {
+.menuitem a:hover {
     
-    background-color: blue
+    text-decoration: underline;
+    text-decoration-color: burlywood;
 
 }
+
 
 nav ul li {
     
@@ -100,9 +102,11 @@ nav ul li a {
     margin: 40px 10px 25px 10px;
 }
 
-#highlight {
+
+#highlight a {
     
-    background-color: blue
+   text-decoration: underline;
+    text-decoration-color: burlywood;
 }
 
 
@@ -151,7 +155,7 @@ header img {
 #homepg_img {
     
     width: 100%;
-    height: 730px
+    height: 900px
 }
 
 #img_text {
@@ -180,25 +184,28 @@ header img {
     
     margin-top: -6px;
     width: 100%;
-    height: 150px;
+    height: 50px;
     background-color: #087800;
     
 }
 
 .cta button {
     
-    margin-top: 50px;
-    margin-left: 300px;
-    width: 200px;
-    height: 50px;
+    position: relative;
+    bottom: 200px;
+    transform: translateX(50px);
+    width: 400px;
+    height: 70px;
     border-radius: 20px;
     font-size: 24px;
+    opacity: 0.9.5;
+    background-color: burlywood
 }
 
 .cta button a {
     
     text-decoration: none;
-    color: black
+    color: black;
 }
 
 /*******************************
@@ -220,11 +227,33 @@ header img {
 }
 
 /*******************************
+        Shoes Page
+*******************************/
+
+article .shoe_info{
+    
+    display: inline-block;
+    margin-left: 320px
+    
+}
+
+.shoe_info h2 {
+    
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    bottom: 50px;
+    font-size: 32px
+}
+
+/*******************************
         About Page
 *******************************/
-#about {
+#about a {
     
-    background-color: blue
+    text-decoration: underline;
+    text-decoration-color: burlywood;
 }
 
 #about_img {
@@ -264,9 +293,10 @@ header img {
         Info Page
 *******************************/
 
-#info {
+#info a{
     
-    background-color: blue
+    text-decoration: underline;
+    text-decoration-color: burlywood;
 }
 
 
@@ -390,55 +420,56 @@ input:focus, textarea:focus {
     font-size: 16px;
 }
 
-#shoe_info{
+.shoe_info{
     
     border: 1px solid;
     width: 20%;
     margin: 100px auto;
     border-radius: 50px;
+    display: block;
     
 }
 
-#shoe_info a {
+.shoe_info a {
     
     text-decoration: none;
     color: black
 }
 
-#shoe_info:hover {
+.shoe_info:hover {
     
     width: 20.1%
 }
 
-#shoe_info img {
+.shoe_info img {
     
     width: 100%;
     border-radius: 50px 50px 0 0;
     height: auto;
 }
 
-#shoe_info h3, #shoe_info p {
+.shoe_info h3, .shoe_info p {
     
     margin-top: 25px;
     display: block;
     text-align: center
 }
 
-#shoe_info p:first-of-type{
+.shoe_info p:first-of-type{
     
     font-size: 28px;
     margin-bottom: 10px;
     text-decoration: line-through
 }
 
-#shoe_info p {
+.shoe_info p {
     
     text-decoration: none;
     font-size: 28px;
    
 }
 
-#shoe_info p:last-of-type {
+.shoe_info p:last-of-type {
     
     text-decoration: none;
     font-size: 34px;
