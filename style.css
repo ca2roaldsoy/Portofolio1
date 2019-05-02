@@ -188,19 +188,26 @@ ul {
     margin: 0 auto
  
 }
+    
 
 button {
-   
-    text-align: center;
+    
     width: 100px;
     height: 30px;
-    max-width: 100%;
     margin: 0 auto;
     border: 1px solid black;
     border-radius: 3px;
-    
 }
     
+#explore a {
+
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+        
+}
+    
+
 #dropDown button{
     
     width: 30%;
@@ -266,9 +273,6 @@ nav .containerNav {
     
 }
     
-
-
-
     
 .containerContent img {
     
@@ -405,19 +409,29 @@ ul {
         
      display: none;
 }
+    
 
-button {
-    
-    width: 225px;
-    height: 50px;
-    border: 1px solid black;
-    border-radius: 3px;
-    font-size: 18px;  
-}
-    
 #dropDown button, #dropDown ul{
     
    display: none;
+        
+}
+    
+button {
+    
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 18px;
+}
+    
+#explore a {
+
+    display: block;
+    margin: 0 auto;
+    width: 100px;
         
 }
 
@@ -557,11 +571,15 @@ nav ul li{
 
 button {
     
-    width: 225px;
-    height: 50px;
+    text-align: center;
+    width: 250px;
+    height: 70px;
+    max-width: 100%;
+    margin: 25px auto;
     border: 1px solid black;
     border-radius: 3px;
-    font-size: 24px;
+    font-size: 18px
+    
 }
     
 #dropDown button, #dropDown ul{
@@ -672,7 +690,7 @@ aside, .containerContent, #involved {
         
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 60px
+    margin-bottom: 0px
 }
     
 .exhib img {
@@ -753,8 +771,7 @@ aside, .containerContent, #involved {
         
     margin-top: 13% 
 }
-   
-
+    
 #explore button {
         
     margin-right: 30%
